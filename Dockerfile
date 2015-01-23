@@ -17,6 +17,6 @@ RUN apt-get update && \
 
 VOLUME ["/inspircd/conf"]
 
-EXPOSE 6667
+EXPOSE 6667 6697
 
 ENTRYPOINT ["/inspircd/bin/inspircd"]
