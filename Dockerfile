@@ -20,3 +20,4 @@ VOLUME ["/inspircd/conf"]
 EXPOSE 6667 6697
 
 ENTRYPOINT ["/inspircd/bin/inspircd"]
+CMD ["--runasroot", "--nofork"]
